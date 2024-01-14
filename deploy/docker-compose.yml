@@ -5,8 +5,10 @@ services:
     image: node:20.11.0
     container_name: portfolio-lorys-node
     restart: always
-    networks: traefik_network
-    volumes: ./app:/app
+    networks: 
+      - traefik_network
+    volumes: 
+      - ./app:/app
     command: node /app/server/index.mjs
     labels:
       - 'traefik.enable=true'
