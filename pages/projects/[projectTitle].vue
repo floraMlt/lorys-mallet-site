@@ -22,11 +22,10 @@ import { useRoute } from "vue-router";
 
 const { path } = useRoute();
 
-const {
-  data: projectPage,
-  pending,
-  error,
-} = await useAsyncData(`content-${path}`, () => {
-  return queryContent().where({ _path: path }).findOne();
-});
+const { data: projectPage, pending } = await useAsyncData(
+  `content-${path}`,
+  () => {
+    return queryContent().where({ _path: path }).findOne();
+  }
+);
 </script>

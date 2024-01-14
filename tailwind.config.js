@@ -11,6 +11,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        test: "#abd3d3",
         primary: {
           100: "#eef6f6",
           200: "#cde4e5",
@@ -34,7 +35,7 @@ export default {
           900: "#183522",
         },
         ternary: { 500: "#d5f0c1" },
-        quartenary: { 500: "#f9f7c9" },
+        quaternary: { 500: "#f9f7c9" },
         texts: {
           normal: "#333333",
           light: "#666666",
