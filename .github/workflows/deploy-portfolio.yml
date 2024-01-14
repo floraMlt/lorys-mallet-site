@@ -2,7 +2,7 @@ name: Deploy Portfolio Lorys Container
 on:
   create:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   Deploy-portfolio-Container:
@@ -38,5 +38,5 @@ jobs:
         run: |
           ssh ${{ secrets.REMOTE_USER }}@${{ secrets.SSH_HOST }} 'bash -s' <<EOF
           cd ${{ env.REMOTE_VOLUME_DIR }}
-          ${{ env.DOCKER_COMPOSE_PATH }} up -d
+          ${{ env.DOCKER_COMPOSE_PATH }} up -d --force-recreate
           EOF
