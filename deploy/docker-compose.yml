@@ -12,7 +12,7 @@ services:
     command: node /app/server/index.mjs
     labels:
       - 'traefik.enable=true'
-      - 'traefik.http.routers.portfolio-lorys.rule=Host(lorys-mallet.com)'
+      - 'traefik.http.routers.portfolio-lorys.rule=Host(`lorys-mallet.com`)'
       - 'traefik.http.routers.portfolio-lorys.entrypoints=web, websecure'
       - 'traefik.http.routers.portfolio-lorys.tls=true'
       - 'traefik.http.routers.portfolio-lorys.tls.certresolver=letsencrypt'
