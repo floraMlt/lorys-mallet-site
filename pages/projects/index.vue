@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl text-primary-500 pt-20 text-center">My projects</h1>
+  <h1 class="text-3xl text-primary-500 pt-20 text-center pt-20">My projects</h1>
   <div class="py-2 flex">
     <ProjectCard
       v-for="project in projectList"
