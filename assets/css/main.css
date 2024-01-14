@@ -1,0 +1,12 @@
+body {
+  font-weight: normal;
+  background-color: #f6f6f6;
+}
+
+.project-content h1 {
+  @apply text-4xl font-bold text-gray-900;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
