@@ -1,10 +1,8 @@
 <template>
-    <div class="h-screen flex flex-col">
-        <NavBar />
-        <router-view class="pt-12"/>
-    </div>
+  <div class="h-screen flex flex-col">
+    <NavBar />
+    <router-view />
+  </div>
 </template>
-  
-<script setup>
-import NavBar from '@/components/NavBar.vue'
-</script>
+
+<script setup></script>
