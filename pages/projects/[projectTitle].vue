@@ -11,11 +11,7 @@
         >
           <p>{{ projectPage.description }}</p>
         </div>
-        <ContentDoc class="project-content">
-          <template #content>
-            {{ projectPage.content }}
-          </template>
-        </ContentDoc>
+        <ContentDoc class="project-content" :path="projectPage._path" />
       </div>
     </div>
   </div>
