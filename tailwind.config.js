@@ -37,9 +37,13 @@ export default {
         ternary: { 500: "#d5f0c1" },
         quaternary: { 500: "#f9f7c9" },
         texts: {
-          normal: "#333333",
+          normal: "#363636",
           light: "#666666",
         },
+      },
+      fontFamily: {
+        primary: ['"Lora"', "serif"],
+        secondary: ['"Roboto"', "sans-serif"],
       },
     },
   },
