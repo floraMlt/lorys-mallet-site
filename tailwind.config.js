@@ -43,7 +43,6 @@ export default {
       },
       fontFamily: {
         primary: ['"Lora"', "serif"],
-        secondary: ['"Roboto"', "sans-serif"],
       },
     },
   },
