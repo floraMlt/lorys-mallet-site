@@ -1,8 +1,8 @@
 <template>
-  <h1 class="text-3xl text-primary-500 pt-20 text-center pt-20">My projects</h1>
+  <h1 class="text-3xl text-primary-500 pt-20 text-center z-0">My projects</h1>
 
   <Loader v-if="pending" />
-  <div v-else class="py-2 flex">
+  <div v-else class="py-2 px-20 flex">
     <ProjectCard
       v-for="project in projectList"
       :key="project.title"
