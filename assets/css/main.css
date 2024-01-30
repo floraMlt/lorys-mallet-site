@@ -4,8 +4,17 @@ body {
 }
 
 .project-content h1 {
-  @apply text-4xl font-bold text-gray-900;
+  @apply text-4xl font-semibold font-primary text-gray-900 mt-4 mb-2
 }
+
+.project-content h3 {
+  @apply text-2xl font-semibold font-primary text-primary-500 mt-4 mb-2
+}
+
+.project-content p {
+  @apply text-texts-normal
+}
+
 
 @tailwind base;
 @tailwind components;

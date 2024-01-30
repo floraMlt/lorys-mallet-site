@@ -12,10 +12,9 @@
       </div>
       <div class="px-6 pt-4 pb-2">
         <span
-          v-for="(tag, index) in project.tags"
+          v-for="(tag) in project.tags"
           :key="tag"
-          :class="`bg-secondary-${index + 1}00`"
-          class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+          class="inline-block rounded-full bg-secondary-300 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
         >
           #{{ tag }}
         </span>

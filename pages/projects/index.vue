@@ -1,5 +1,6 @@
 <template>
-  <h1 class="text-3xl text-primary-500 pt-20 text-center z-0">My projects</h1>
+  <h1 class="text-3xl text-primary-500 pt-20 text-center z-0">Mes projets</h1>
+  <!--<ProjectFilterBar/>-->
 
   <Loader v-if="pending" />
   <div v-else class="py-2 px-20 flex">
