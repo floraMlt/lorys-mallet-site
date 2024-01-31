@@ -1,13 +1,13 @@
 ---
 title: Trace n°1
-category: Réaliser des analyses dans les domaines de la biologie
 description: Une description
 imgCover: /img/illu2.webp
+category: Réaliser des analyses dans les domaines de la biologie
 tags:
-  - biologie
-  - analyses
-  - stage
+  - Test
+  - Hola
 ---
+
 ### Description
 
 Cette manipulation a été réalisé au cours de mon stage de 2eme année de BUT lors de mon stage que j’ai effectuer a Voxcell à Bordeaux, cette manipulation est une simple réalisation d’une solution permettant de bloquer les sites aspécifiques afin de réaliser un marquage par immunofluorescence.

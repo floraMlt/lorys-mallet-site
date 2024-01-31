@@ -1,6 +1,6 @@
 <template>
   <RouterLink :to="project._path">
-    <div class="max-w-sm h-full rounded-xl overflow-hidden shadow-lg">
+    <div class="max-w-sm h-full rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
       <img
         class="w-full h-3/5"
         :src="project.imgCover"
