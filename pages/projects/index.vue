@@ -8,7 +8,7 @@
     <Loader v-if="pending" />
     <div v-else class="py-2 px-20 flex row flex-wrap justify-center">
       <ProjectCard
-        v-for="project in projectList"
+        v-for="project in filteredProjects"
         :key="project.title"
         :project="project"
         class="m-3"
@@ -18,34 +18,33 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 
 const { data: list, pending } = useAsyncData("projectList", () => {
   return queryContent("/projects").find();
 });
 
-let allProjects = list.value || [];
-
-let projectList = ref([...allProjects]);
 const categoriesList = ref([]);
 
 const sortProjects = (cat) => {
-  if (!categoriesList?.value?.includes(cat.target.innerText)) {
-    categoriesList.value.push(cat.target.innerText);
-  } else {
-    const index = categoriesList.value.indexOf(cat.target.innerText);
-
-    if (index !== -1) {
-      categoriesList.value.splice(index, 1);
-    }
-  }
-
-  const filteredList = categoriesList.value.length
-    ? allProjects.filter((project) =>
-        project.tags.includes(cat.target.innerText)
-      )
-    : allProjects;
-
-  projectList.value = [...filteredList];
+  const category = cat.target.innerText;
+  toggleCategory(category);
 };
+
+const toggleCategory = (category) => {
+  const index = categoriesList.value.indexOf(category);
+  if (index === -1) {
+    categoriesList.value.push(category);
+  } else {
+    categoriesList.value.splice(index, 1);
+  }
+};
+
+const filteredProjects = computed(() => {
+  return categoriesList.value.length
+    ? list.value.filter((project) =>
+        categoriesList.value.some((category) => project.tags.includes(category))
+      )
+    : list.value;
+});
 </script>
