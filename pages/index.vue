@@ -56,10 +56,10 @@
       <p class="text-lg text-texts-normal">Contactez-moi par mail :</p>
 
       <a
-        href="mailto:lorymallet@gmail.com"
+        href="mailto:lorysmallet@gmail.com"
         class="text-lg text-primary-500 hover:text-primary-600 transition-all"
       >
-        lorymallet@gmail.com
+        lorysmallet@gmail.com
       </a>
     </div>
   </div>

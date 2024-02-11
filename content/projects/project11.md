@@ -1,13 +1,13 @@
 ---
 title: Organoïdes de cellules épithéliales mammaires
-imgCover: /img/photosrapportdestage.webp
+imgCover: ~/assets/img/photosrapportdestage.webp
 category: Mener des études à l’échelle de l’organisme et de la cellule en biologie de la santé
 tags:
   - Organoïdes
   - Caractérisation
 ---
 
-![image](img/photosrapportdestage.webp)
+![image](~/assets/img/photosrapportdestage.webp)
 
 ### Description :
 

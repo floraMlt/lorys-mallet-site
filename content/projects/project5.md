@@ -1,13 +1,13 @@
 ---
 title: Effectuer de la bibliographie dans le cadre d'une conférence
-imgCover: /img/blibliosteinert.webp
+imgCover: ~/assets/img/blibliosteinert.webp
 category: Expérimenter dans le génie biologique
 tags:
   - Bibliographie
   - Zotero
 ---
 
-![image](img/blibliosteinert.webp)
+![image](~/assets/img/blibliosteinert.webp)
 
 ### Description
 

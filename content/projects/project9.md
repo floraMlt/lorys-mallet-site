@@ -1,13 +1,13 @@
 ---
 title: Exploiter des résultats expérimentaux de wound healing assay
-imgCover: /img/WHAresultatsexp.webp
+imgCover: ~/assets/img/WHAresultatsexp.webp
 category: Expérimenter dans le génie biologique
 tags:
   - Fiji
   - Traçabilité
 ---
 
-![image](img/WHAresultatsexp.webp)
+![image](~/assets/img/WHAresultatsexp.webp)
 
 ### Description :
 

@@ -1,6 +1,6 @@
 ---
 title: Identification de bactérie
-imgCover: /img/IDbiobacterie.webp
+imgCover: ~/assets/img/IDbiobacterie.webp
 category: Réaliser des examens de biologie médicale
 tags:
   - Identification
@@ -8,7 +8,7 @@ tags:
   - Microbiologie
 ---
 
-![image](img/IDbiobacterie.webp)
+![image](~/assets/img/IDbiobacterie.webp)
 
 ### Description :
 
