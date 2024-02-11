@@ -7,7 +7,7 @@
       &times;
     </span>
 
-    <img src="../assets/img/illu1.jpeg" alt="cv" class="max-w-full" />
+    <img src="../assets/img/mallet-lorys-cv.webp" alt="cv" class="max-w-full" />
   </div>
 </template>
 

@@ -5,8 +5,8 @@
 <style>
 .loader {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 16%;
+  left: 0%;
   width: 64px;
   height: 64px;
   display: block;

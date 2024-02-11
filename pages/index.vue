@@ -25,8 +25,7 @@
 
           <h5 class="w-3/4 text-s text-texts-normal mb-14 flex font-secondary">
             Je suis passionné par les sciences et plus précisément par la
-            biologie, domaine dans lequel j'aimerais exercer plus tard. Venez
-            découvrir mes projets !
+            biologie. Venez découvrir mes projets !
           </h5>
         </div>
 
@@ -39,7 +38,7 @@
 
         <ModalCV v-if="isModalOpen" @close-modal="closeModal" />
 
-        <router-link to='/projects'>
+        <router-link to="/projects">
           <button
             class="bg-secondary-500 hover:bg-secondary-700 w-30 text-white font-semibold py-2 px-4 rounded transition-all"
           >
@@ -53,7 +52,7 @@
       class="h-fit w-2/4 rounded-xl shadow-lg px-6 py-4 mt-16 mx-auto text-xl text-center hover:shadow-xl hover:cursor-pointer transition-all"
     >
       <p class="text-lg text-texts-normal">Contactez-moi par mail :</p>
-      
+
       <a
         href="mailto:lorymallet@gmail.com"
         class="text-lg text-primary-500 hover:text-primary-600 transition-all"

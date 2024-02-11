@@ -1,6 +1,8 @@
 <template>
   <RouterLink :to="project._path">
-    <div class="max-w-sm h-full rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
+    <div
+      class="max-w-sm h-min rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all"
+    >
       <img
         class="w-full h-3/5"
         :src="project.imgCover"
@@ -8,11 +10,10 @@
       />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">{{ project.title }}</div>
-        <p class="text-gray-700 text-base">{{ project.description }}</p>
       </div>
       <div class="px-6 pt-4 pb-2">
         <span
-          v-for="(tag) in project.tags"
+          v-for="tag in project.tags"
           :key="tag"
           class="inline-block rounded-full bg-secondary-300 px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
         >

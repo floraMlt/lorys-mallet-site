@@ -11,33 +11,68 @@
     <div class="flex items-center">
       <div>
         <p class="text-center font-semibold text-texts-normal mb-6 px-32">
-          Je m'appelle Lorys Mallet, j'ai 20 ans et je suis passionné par les
-          sciences, plus précisément la biologie et j'aimerais exercer un métier
-          dans ce domaine.
+          Bonjour, je m'appelle Lorys Mallet, j'ai 20 ans, et ma passion pour
+          les sciences, en particulier la biologie, guide mon parcours
+          académique et professionnel. Ma personnalité se caractérise par ma
+          persévérance et mon engagement dans tout ce que j'entreprends.
         </p>
 
         <div class="grid grid-cols-2 gap-10 w-full">
           <p class="text-texts-normal text-justify">
-            Cela me correspond bien car je suis quelqu'un de persévérant et qui
-            aime s'appliquer dans ce qu'il fait. Ce qui m'attire dans ce
-            domaine, c'est d'essayer de comprendre ce qui nous entoure et le
-            fonctionnement du vivant. Concernant ma scolarité, j'ai effectué une
-            seconde générale au lycée Grand air à Arcachon. Par la suite, j'ai
-            été intéressé pour mon année de 1 ere et de Terminale par un BAC STL
-            (sciences et technologies de laboratoire) au lycée de la mer à
-            Biganos car j'aime bien les manipulations et les sciences.
+            Fasciné par la compréhension du monde qui nous entoure et le
+            fonctionnement du vivant, j'ai choisi de poursuivre une formation en
+            biologie. 
+            
+            Mon parcours académique a débuté avec une seconde générale
+            au lycée Grand Air à Arcachon. Pour concrétiser ma passion et
+            approfondir mes connaissances, j'ai opté pour un BAC STL (sciences
+            et technologies de laboratoire spécialité biotechnologies) au lycée
+            de la Mer à Biganos. Cette filière m'a permis de me familiariser
+            avec les manipulations et de développer un intérêt grandissant pour
+            la biologie et son application. 
+            
+            Par la suite, je me suis intéressé à la formation BUT génie biologique 
+            parcours biologie médicale et biotechnologie (BMB). Pendant mon cursus, j’ai eu la chance de
+            développer différentes compétences que je vais vous illustrer dans
+            mon portfolio et j'ai aussi eu l'opportunité d'effectuer deux stages
+            enrichissants : 
+            
+            Un stage de 2 mois au sein de l'IOA à Bordeaux, au
+            sein de l'équipe Voxcell. 
+            
+            Un stage de 4 mois à Québec, au sein de l'hôpital Enfant Jésus. 
+            
+            Cette formation et ces expériences ont
+            renforcé ma conviction quant à mon projet professionnel futur en
+            apportant une précieuse expérience théorique et pratique et en
+            consolidant mes compétences.
           </p>
 
           <p class="text-texts-normal text-justify">
-            Je trouvais que cette filière me correspondait parfaitement et dans
-            celle-ci j'ai commencé à m'intéresser de plus en plus à la biologie
-            et c'est ce qui m'a donné envie d'aller en BUT Génie Biologique afin
-            de continuer d'en apprendre plus sur ce domaine qui me passionne.
-            Durant mon cursus du BUT j'ai la chance d'effectuer 2 stages, 1
-            stage de 2 mois au sein de l'IOA a Bordeaux dans l'équipe Voxcell et
-            un autre à Québec au sein de l'hôpital Enfant Jésus durant 4 mois
-            qui m'ont apporter beaucoup d'expérience et de conviction concernant
-            la solidification de mon projet pour mon avenir.
+            En dehors de mon parcours académique et professionnel, ma vie est
+            également enrichie par diverses expériences personnelles qui
+            dévoilent ma polyvalence et mon équilibre de vie. La musculation
+            occupe une place significative dans ma routine quotidienne, non
+            seulement comme un moyen de maintenir ma santé physique, mais aussi
+            comme une source de discipline et de détermination. 
+            
+            La pêche représente une autre facette de mes loisirs. C'est une activité qui
+            me permet de me connecter à la nature, de trouver la tranquillité
+            d'esprit et de relever les défis que ce passe-temps apporte et qui
+            renforce mon équilibre personnel. 
+            
+            En dehors de ces activités, je tiens à consacrer du temps à mes proches et amis. Profiter de
+            moments conviviaux, partager des expériences et cultiver des
+            relations solides sont des aspects essentiels de ma vie quotidienne.
+            Cet équilibre entre mes engagements professionnels et ces activités
+            personnelles contribue à forger ma personnalité équilibrée et
+            déterminée. 
+            
+            En résumé, ma démarche académique et professionnelle est
+            guidée par ma passion pour la biologie, ma persévérance et mon
+            engagement. Les expériences que j'ai acquises ont renforcé ma
+            conviction quant à mon avenir professionnel, et je suis prêt à
+            apporter ces compétences et cette passion à de nouveaux défis.
           </p>
         </div>
       </div>

@@ -1,22 +1,33 @@
 <template>
   <div
-    class="max-w-82 h-auto py-1 px-3 m-1 text-texts-normal rounded-full hover:bg-gray-300 hover:cursor-pointer transition-all"
-    :style="{ backgroundColor: isActive ? '#84c89c' : '#e5e7eb' }"
+    class="max-w-82 h-auto px-3 m-1 flex items-center text-texts-normal hover:cursor-pointer transition-all"
     @click="sortProjectByTag"
   >
-    <slot />
+    <input
+      type="checkbox"
+      :id="id"
+      :name="id"
+      class="mr-1 accent-secondary-400"
+    />
+    <label :for="id">
+      <slot />
+    </label>
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
 
-const isActive = ref(false);
+const props = defineProps({
+  id: {
+    type: String,
+    required: true,
+  },
+});
 
 const emit = defineEmits(["sortProjectByTag"]);
 
 const sortProjectByTag = (cat) => {
   emit("sortProjectByTag", cat);
-  isActive.value = !isActive.value;
 };
 </script>
