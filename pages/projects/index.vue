@@ -1,17 +1,16 @@
 <template>
   <ClientOnly>
     <h1
-      class="text-3xl text-primary-500 font-semibold font-primary pt-20 mb-8 text-center z-0"
+      class="text-3xl text-primary-500 font-primary font-semibold text-center pt-20 mb-8 z-0"
     >
       Mes projets
     </h1>
     <ProjectFilterBar @sortProjectByTag="sortProjects" />
 
     <Loader v-if="pending" />
-
-    <div v-else class="py-2 px-20 flex row flex-wrap justify-center">
+    <div v-else class="py-3 px-20 flex row flex-wrap justify-center">
       <ProjectCard
-        v-for="project in projectList"
+        v-for="project in filteredProjects"
         :key="project.title"
         :project="project"
         class="m-3"
@@ -21,27 +20,29 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 
 const { data: list, pending } = useAsyncData("projectList", () => {
   return queryContent("/projects").find();
 });
 
-let allProjects = list.value || [];
-
-let projectList = ref([...allProjects]);
-const categoriesList = ref([]);
 const selectedCategory = ref("");
 
 const sortProjects = (cat) => {
-  selectedCategory.value = cat.target?.labels?.[0]?.innerText;
-
-  const filteredList = selectedCategory.value?.length
-    ? allProjects.filter(
-        (project) => project.category === cat.target?.labels?.[0]?.innerText
-      )
-    : allProjects;
-
-  projectList.value = [...filteredList];
+  const category = cat.target?.labels?.[0]?.innerText;
+  toggleCategory(category);
 };
+
+const toggleCategory = (category) => {
+  selectedCategory.value =
+    selectedCategory?.value?.length === 0 ? category : "";
+};
+
+const filteredProjects = computed(() => {
+  return selectedCategory?.value?.length
+    ? list.value.filter(
+        (project) => selectedCategory.value === project.category
+      )
+    : list.value;
+});
 </script>

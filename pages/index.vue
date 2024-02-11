@@ -36,7 +36,9 @@
           Mon CV
         </button>
 
-        <ModalCV v-if="isModalOpen" @close-modal="closeModal" />
+        <Transition>
+          <ModalCV v-if="isModalOpen" @close-modal="closeModal" />
+        </Transition>
 
         <router-link to="/projects">
           <button
@@ -77,3 +79,15 @@ const closeModal = () => {
   isModalOpen.value = false;
 };
 </script>
+
+<style>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>
