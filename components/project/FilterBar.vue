@@ -14,7 +14,7 @@
       Expérimenter dans le génie biologique
     </ProjectTag>
     <ProjectTag id="health" @click="sortProjectByTag">
-      Mener des études à l’échelle de l’organisme et de la cellule en biologie
+      Mener des études à l'échelle de l'organisme et de la cellule en biologie
       de la santé
     </ProjectTag>
   </div>
