@@ -1,13 +1,13 @@
 ---
 title: Préparer les réactifs, consommables pour manipulations
-imgCover: ~/assets/img/tubebloquage.webp
+imgCover: /img/tubebloquage.webp
 category: Réaliser des analyses dans les domaines de la biologie
 tags:
   - Traçabilité
   - Immunomarquage
 ---
 
-![image](~/assets/img/tubebloquage.webp)
+![image](/img/tubebloquage.webp)
 
 ### Description
 

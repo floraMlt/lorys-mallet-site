@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="relative flex flex-col items-center pt-24 px-24 z-0 max-w-screen-xl"
-  >
+  <div class="relative flex flex-col items-center p-24 z-0 max-w-screen-xl">
     <h1
       class="text-3xl text-primary-500 mb-10 flex text-center font-semibold font-primary"
     >
@@ -10,7 +8,9 @@
 
     <div class="flex items-center">
       <div>
-        <p class="text-center font-semibold text-texts-normal mb-6 px-32">
+        <p
+          class="text-center font-semibold text-texts-normal mb-6 px-32 text-sm"
+        >
           Je m'appelle Lorys Mallet, j'ai 20 ans, et ma passion pour les
           sciences, en particulier la biologie, guide mon parcours académique et
           professionnel. Ma personnalité se caractérise par ma persévérance et
@@ -19,14 +19,14 @@
 
         <div class="grid grid-cols-2 gap-12 w-full">
           <div>
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Fasciné par la compréhension du monde qui nous entoure et le
               fonctionnement du vivant, j'ai choisi de poursuivre une formation
               en biologie. Mon parcours académique a débuté avec une seconde
               générale au lycée Grand Air à Arcachon.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Pour concrétiser ma passion et approfondir mes connaissances, j'ai
               opté pour un BAC STL (sciences et technologies de laboratoire
               spécialité biotechnologies) au lycée de la Mer à Biganos. Cette
@@ -35,10 +35,10 @@
               application.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Par la suite, je me suis intéressé à la formation BUT génie
               biologique parcours biologie médicale et biotechnologie (BMB).
-              Pendant mon cursus, j’ai eu la chance de développer différentes
+              Pendant mon cursus, j'ai eu la chance de développer différentes
               compétences que je vais vous illustrer dans mon portfolio et j'ai
               aussi eu l'opportunité d'effectuer deux stages enrichissants : Un
               stage de 2 mois au sein de l'IOA à Bordeaux, au sein de l'équipe
@@ -46,7 +46,7 @@
               Jésus.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Cette formation et ces expériences ont renforcé ma conviction
               quant à mon projet professionnel futur en apportant une précieuse
               expérience théorique et pratique et en consolidant mes
@@ -55,7 +55,7 @@
           </div>
 
           <div>
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               En dehors de mon parcours académique et professionnel, ma vie est
               également enrichie par diverses expériences personnelles qui
               dévoilent ma polyvalence et mon équilibre de vie. La musculation
@@ -64,7 +64,7 @@
               aussi comme une source de discipline et de détermination.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               La pêche représente une autre facette de mes loisirs. C'est une
               activité qui me permet de me connecter à la nature, de trouver la
               tranquillité d'esprit et de relever les défis que ce passe-temps
@@ -75,7 +75,7 @@
               vie quotidienne.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Cet équilibre entre mes engagements professionnels et ces
               activités personnelles contribue à forger ma personnalité
               équilibrée et déterminée. En résumé, ma démarche académique et
@@ -83,7 +83,7 @@
               persévérance et mon engagement.
             </p>
             <br />
-            <p class="text-texts-normal text-justify">
+            <p class="text-texts-normal text-justify text-sm">
               Les expériences que j'ai acquises ont renforcé ma conviction quant
               à mon avenir professionnel, et je suis prêt à apporter ces
               compétences et cette passion à de nouveaux défis.

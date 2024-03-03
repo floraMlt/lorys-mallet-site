@@ -1,13 +1,13 @@
 ---
 title: Étude enzymatique de la DHFR recombinante
-imgCover: ~/assets/img/etudeenzymatiqueDHFR.webp
+imgCover: /img/etudeenzymatiqueDHFR.webp
 category: Mettre en œuvre des techniques d’ingénierie moléculaire en biologie de la santé
 tags:
   - Étude enzymatique
   - Bioproduction
 ---
 
-![image](~/assets/img/etudeenzymatiqueDHFR.webp)
+![image](/img/etudeenzymatiqueDHFR.webp)
 
 ### Description :
 

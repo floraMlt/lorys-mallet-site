@@ -1,6 +1,6 @@
 ---
 title: Adapter les protocoles de stampwells et de scratch assay
-imgCover: ~/assets/img/stampwell.webp
+imgCover: /img/stampwell.webp
 category: Réaliser des analyses dans les domaines de la biologie
 tags:
   - Adaptation
@@ -8,7 +8,7 @@ tags:
   - Bibliographie
 ---
 
-![image](~/assets/img/stampwell.webp)
+![image](/img/stampwell.webp)
 
 ### Description
 

@@ -1,6 +1,6 @@
 ---
 title: Réaliser une identification mycologique
-imgCover: ~/assets/img/CRmyco1.webp
+imgCover: /img/CRmyco1.webp
 category: Réaliser des examens de biologie médicale
 tags:
   - Micologie
@@ -8,11 +8,11 @@ tags:
   - Identification
 ---
 
-![image](~/assets/img/CRmyco1.webp)
+![image](/img/CRmyco1.webp)
 
-![image](~/assets/img/CRmyco2.webp)
+![image](/img/CRmyco2.webp)
 
-![image](~/assets/img/CRmyco3.webp)
+![image](/img/CRmyco3.webp)
 
 ### Description :
 

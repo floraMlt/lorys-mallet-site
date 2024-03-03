@@ -1,5 +1,5 @@
 <template>
-  <div class="modal-cv absolute z-20 p-4 bg-secondary-300 rounded-xl">
+  <div class="modal-cv fixed z-20 p-4 bg-secondary-300 rounded-xl">
     <span
       class="z-30 absolute right-7 cursor-pointer text-secondary-100 text-3xl hover:text-secondary-400 transition-all"
       @click="$emit('closeModal')"

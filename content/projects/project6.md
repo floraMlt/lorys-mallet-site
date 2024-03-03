@@ -1,6 +1,6 @@
 ---
 title: Élaboration d'une conférence
-imgCover: ~/assets/img/photoconf.webp
+imgCover: /img/photoconf.webp
 category: Expérimenter dans le génie biologique
 tags:
   - Communication
@@ -8,7 +8,7 @@ tags:
   - Conférence
 ---
 
-![image](~/assets/img/photoconf.webp)
+![image](/img/photoconf.webp)
 
 [Lien vers la conférence](https://pod.univ-lr.fr/video/4000-steinermov/){:target="\_blank" }
 

@@ -8,7 +8,7 @@
     <ProjectFilterBar @sortProjectByTag="sortProjects" />
 
     <Loader v-if="pending" />
-    <div v-else class="py-3 px-20 flex row flex-wrap justify-center">
+    <div v-else class="py-5 px-20 flex row flex-wrap justify-center">
       <ProjectCard
         v-for="project in filteredProjects"
         :key="project.title"

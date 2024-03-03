@@ -1,13 +1,13 @@
 ---
 title: Apporter une réponse adaptée à une problématique
-imgCover: ~/assets/img/graphtpcellmurillo.webp
+imgCover: /img/graphtpcellmurillo.webp
 category: Expérimenter dans le génie biologique
 tags:
   - Graphique
   - Interprétation
 ---
 
-![image](~/assets/img/graphtpcellmurillo.webp)
+![image](/img/graphtpcellmurillo.webp)
 
 ### Description :
 

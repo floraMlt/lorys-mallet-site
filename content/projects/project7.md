@@ -1,6 +1,6 @@
 ---
 title: Proposer et réaliser une expérience pour tester une hypothèse
-imgCover: ~/assets/img/phototpcellmurillo.webp
+imgCover: /img/phototpcellmurillo.webp
 category: Expérimenter dans le génie biologique
 tags:
   - Problématique
@@ -8,7 +8,7 @@ tags:
   - Culture cellulaire
 ---
 
-![image](~/assets/img/phototpcellmurillo.webp)
+![image](/img/phototpcellmurillo.webp)
 
 ### Description :
 

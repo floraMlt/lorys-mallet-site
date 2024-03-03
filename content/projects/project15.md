@@ -1,6 +1,6 @@
 ---
 title: Étude d'un plasmide génétiquement modifié
-imgCover: ~/assets/img/genomesnapgene.webp
+imgCover: /img/genomesnapgene.webp
 category: Mettre en œuvre des techniques d’ingénierie moléculaire en biologie de la santé
 tags:
   - SnapGene
@@ -8,7 +8,7 @@ tags:
   - Bioproduction
 ---
 
-![image](~/assets/img/genomesnapgene.webp)
+![image](/img/genomesnapgene.webp)
 
 ### Description :
 

@@ -1,6 +1,6 @@
 ---
 title: Gérer les déchets d’un laboratoire
-imgCover: ~/assets/img/photodechets.webp
+imgCover: /img/photodechets.webp
 category: Réaliser des analyses dans les domaines de la biologie
 tags:
   - DASRI
@@ -8,7 +8,7 @@ tags:
   - Traçabilité
 ---
 
-![image](~/assets/img/photodechets.webp)
+![image](/img/photodechets.webp)
 
 ### Description
 

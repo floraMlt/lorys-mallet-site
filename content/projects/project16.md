@@ -1,6 +1,6 @@
 ---
 title: Étude et caractérisation de la DHFR par électrophorèse
-imgCover: ~/assets/img/prodetcaracterisationprot1.webp
+imgCover: /img/prodetcaracterisationprot1.webp
 category: Mettre en œuvre des techniques d’ingénierie moléculaire en biologie de la santé
 tags:
   - Graphique
@@ -8,11 +8,11 @@ tags:
   - Bioproduction
 ---
 
-![image](~/assets/img/prodetcaracterisationprot1.webp)
+![image](/img/prodetcaracterisationprot1.webp)
 
-![image](~/assets/img/prodetcaracterisationprot2.webp)
+![image](/img/prodetcaracterisationprot2.webp)
 
-![image](~/assets/img/prodetcaracterisationprot3.webp)
+![image](/img/prodetcaracterisationprot3.webp)
 
 ### Description :
 
