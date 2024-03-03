@@ -1,7 +1,7 @@
 ---
 title: Effet de de l'acétylcholine / atropine sur une trachée
 imgCover: /img/Courbeeffetpharmaco.webp
-category: Mener des études à l’échelle de l’organisme et de la cellule en biologie de la santé
+category: Mener des études à l'échelle de l'organisme et de la cellule en biologie de la santé
 tags:
   - Organe isolé
   - Effets xénobiotiques

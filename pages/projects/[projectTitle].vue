@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-full mt-12 z-0">
+  <div class="relative mt-12 pb-16 z-0">
     <Loader v-if="pending" />
 
     <div v-else>

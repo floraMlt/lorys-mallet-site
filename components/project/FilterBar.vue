@@ -4,7 +4,7 @@
       Réaliser des analyses dans les domaines de la biologie
     </ProjectTag>
     <ProjectTag id="molecular-engineering" @click="sortProjectByTag">
-      Mettre en œuvre des techniques d’ingénierie moléculaire en biologie de la
+      Mettre en œuvre des techniques d'ingénierie moléculaire en biologie de la
       santé
     </ProjectTag>
     <ProjectTag id="medical-biology" @click="sortProjectByTag">

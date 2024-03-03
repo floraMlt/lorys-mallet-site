@@ -5,7 +5,7 @@
     >
       Mes projets
     </h1>
-    <ProjectFilterBar @sortProjectByTag="sortProjects" />
+    <ProjectFilterBar @sortProjectByTag="sortProjects($event)" />
 
     <Loader v-if="pending" />
     <div v-else class="py-5 px-20 flex row flex-wrap justify-center">
@@ -26,20 +26,22 @@ const { data: list, pending } = useAsyncData("projectList", () => {
   return queryContent("/projects").find();
 });
 
-const selectedCategory = ref("");
+const selectedCategory = ref([]);
 
 const sortProjects = (cat) => {
   const category = cat.target?.labels?.[0]?.innerText;
-  toggleCategory(category);
+
+  if (category) {
+    toggleCategory(category);
+  }
 };
 
 const toggleCategory = (category) => {
-  selectedCategory.value =
-    selectedCategory?.value?.length === 0 ? category : "";
+  selectedCategory.value = selectedCategory.value === category ? "" : category;
 };
 
 const filteredProjects = computed(() => {
-  return selectedCategory?.value?.length
+  return selectedCategory.value
     ? list.value.filter(
         (project) => selectedCategory.value === project.category
       )

@@ -15,6 +15,9 @@ body {
   @apply text-texts-normal
 }
 
+.project-content img {
+  @apply mx-auto
+}
 
 @tailwind base;
 @tailwind components;

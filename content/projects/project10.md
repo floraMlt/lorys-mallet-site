@@ -1,7 +1,7 @@
 ---
 title: Culture des cellules MCF10A
 imgCover: /img/photocellstage.webp
-category: Mener des études à l’échelle de l’organisme et de la cellule en biologie de la santé
+category: Mener des études à l'échelle de l'organisme et de la cellule en biologie de la santé
 tags:
   - Culture cellulaire
 ---
