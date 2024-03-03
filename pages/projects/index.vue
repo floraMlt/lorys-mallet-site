@@ -37,14 +37,22 @@ const sortProjects = (cat) => {
 };
 
 const toggleCategory = (category) => {
-  selectedCategory.value = selectedCategory.value === category ? "" : category;
+  if (selectedCategory.value.includes(category)) {
+    selectedCategory.value = selectedCategory.value.filter(
+      (cat) => cat !== category
+    );
+  } else {
+    selectedCategory.value.push(category);
+  }
 };
 
 const filteredProjects = computed(() => {
-  return selectedCategory.value
-    ? list.value.filter(
-        (project) => selectedCategory.value === project.category
-      )
-    : list.value;
+  if (selectedCategory.value.length === 0) {
+    return list.value;
+  }
+
+  return list.value.filter((project) =>
+    selectedCategory.value.includes(project.category)
+  );
 });
 </script>
