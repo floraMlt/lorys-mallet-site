@@ -1,7 +1,7 @@
 <template>
   <RouterLink :to="project._path">
     <div
-      class="max-w-sm h-full rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all"
+      class="sm:max-w-sm h-full rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all s:max-w-full"
     >
       <img
         class="w-full h-52 object-cover object-center"

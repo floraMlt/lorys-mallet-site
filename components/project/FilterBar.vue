@@ -1,5 +1,7 @@
 <template>
-  <div class="flex row flex-wrap justify-center items-center px-20">
+  <div
+    class="sm:flex sm:flex-row sm:flex-wrap sm:justify-center sm:items-center sm:px-20 s:px-8 s:flex-col"
+  >
     <ProjectTag id="analyses" @click="sortProjectByTag">
       Réaliser des analyses dans les domaines de la biologie
     </ProjectTag>

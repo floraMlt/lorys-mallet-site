@@ -1,14 +1,14 @@
 <template>
   <ClientOnly>
     <h1
-      class="text-3xl text-primary-500 font-primary font-semibold text-center pt-20 mb-8 z-0"
+      class="sm:text-3xl text-primary-500 font-primary font-semibold text-center pt-20 mb-8 z-0 s:text-4xl"
     >
       Mes projets
     </h1>
     <ProjectFilterBar @sortProjectByTag="sortProjects($event)" />
 
     <Loader v-if="pending" />
-    <div v-else class="py-5 px-20 flex row flex-wrap justify-center">
+    <div v-else class="py-5 sm:px-20 flex row flex-wrap justify-center s:px-8">
       <ProjectCard
         v-for="project in filteredProjects"
         :key="project.title"

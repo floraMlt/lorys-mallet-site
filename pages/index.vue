@@ -1,24 +1,24 @@
 <template>
   <div
-    class="relative flex flex-col items-center pt-32 px-24 z-0 max-w-screen-xl"
+    class="relative flex flex-col items-center sm:pt-32 sm:px-24 z-0 max-w-screen-xl s:pt-20 s:px-8"
   >
-    <div class="flex">
+    <div class="sm:flex sm:flex-row s:flex-col">
       <img
         src="../assets/img/img-hp.jpg"
         alt="illustration biology"
-        class="max-h-80 mr-10 rounded-3xl"
+        class="sm:max-h-80 sm:mr-10 rounded-3xl s:max-h-48 s:mx-auto"
       />
 
       <div>
         <div>
           <h1
-            class="text-6xl text-primary-500 mb-6 flex font-semibold font-primary"
+            class="sm:text-6xl text-primary-500 mb-6 flex font-semibold font-primary s:mt-5 s:text-center s:text-5xl s:leading-tight"
           >
             Lorys Mallet
           </h1>
 
           <h3
-            class="text-3xl text-primary-500 mb-8 flex font-semibold font-primary"
+            class="text-3xl text-primary-500 mb-8 flex font-semibold font-primary s:text-center"
           >
             Étudiant en biologie
           </h3>
