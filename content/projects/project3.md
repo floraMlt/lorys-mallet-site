@@ -1,6 +1,6 @@
 ---
 title: Exploiter les résultats du wound healing assay
-imgCover: /img/resultatswoundhealingassay.webp
+imgCover: /img/resultatwoundhealingassay.webp
 category: Réaliser des analyses dans les domaines de la biologie
 tags:
   - PRISM
@@ -8,7 +8,7 @@ tags:
   - Communication
 ---
 
-![image](/img/resultatswoundhealingassay.webp)
+![image](/img/resultatwoundhealingassay.webp)
 
 ### Description :
 
