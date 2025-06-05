@@ -8,7 +8,7 @@ jobs:
   Deploy-portfolio-Container:
     runs-on: ubuntu-latest
     env:
-      REMOTE_VOLUME_DIR: /volume1/docker/portfolio-lorys/
+      REMOTE_VOLUME_DIR: /volume2/docker_1/portfolio-lorys/
       DOCKER_COMPOSE_PATH: /usr/local/bin/docker-compose
     steps:
       - uses: actions/checkout@v3
