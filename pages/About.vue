@@ -11,7 +11,7 @@
         <p
           class="text-center font-semibold text-texts-normal mb-6 px-32 text-sm"
         >
-          Je m'appelle Lorys Mallet, j'ai 20 ans, et ma passion pour les
+          Je m'appelle Lorys Mallet, j'ai {{ age }} ans, et ma passion pour les
           sciences, en particulier la biologie, guide mon parcours académique et
           professionnel. Ma personnalité se caractérise par ma persévérance et
           mon engagement dans tout ce que j'entreprends.
@@ -51,6 +51,17 @@
               quant à mon projet professionnel futur en apportant une précieuse
               expérience théorique et pratique et en consolidant mes
               compétences.
+            </p>
+            <br />
+            <p class="text-texts-normal text-justify text-sm">
+              Dans la continuité de ce parcours, j’ai choisi d’intégrer le
+              master Biotechnologie, spécialité Expression génétique et
+              protéines recombinantes. Ce master me permet de renforcer mes
+              connaissances en biologie moléculaire, génie génétique et
+              bio-ingénierie, en particulier sur la production et la
+              purification de protéines recombinantes. Ce choix s’inscrit dans
+              la logique de mon parcours et dans mon ambition de contribuer au
+              développement de solutions innovantes.
             </p>
           </div>
 
@@ -120,18 +131,34 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import ModalCV from "@/components/ModalCV.vue";
+import { ref, computed } from 'vue'
+import ModalCV from '@/components/ModalCV.vue'
 
-const isModalOpen = ref(false);
+const isModalOpen = ref(false)
 
 const openModal = () => {
-  isModalOpen.value = true;
-};
+  isModalOpen.value = true
+}
 
 const closeModal = () => {
-  isModalOpen.value = false;
-};
+  isModalOpen.value = false
+}
+
+const birthDate = ref('2003-10-19')
+const age = computed(() => {
+  if (!birthDate.value) return null
+
+  const today = new Date()
+  const birth = new Date(birthDate.value)
+  let years = today.getFullYear() - birth.getFullYear()
+
+  const m = today.getMonth() - birth.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+    years--
+  }
+
+  return years
+})
 </script>
 
 <style>
