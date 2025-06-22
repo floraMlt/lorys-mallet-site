@@ -16,7 +16,7 @@ body {
 }
 
 .project-content img {
-  @apply mx-auto
+  @apply mx-auto my-4
 }
 
 @tailwind base;

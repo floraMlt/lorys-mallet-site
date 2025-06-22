@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const routes = require('./prerender-routes.json')
+
 export default defineNuxtConfig({
   app: { 
     head: {
@@ -22,4 +24,9 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
+  nitro: {
+    prerender: {
+      routes
+    }
+  }
 });

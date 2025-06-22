@@ -8,6 +8,7 @@
         alt="Image du projet"
         class="w-screen h-[150px] object-cover"
       />
+
       <div class="py-4 px-24">
         <router-link
           to="/projects"

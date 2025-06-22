@@ -8,9 +8,9 @@ tags:
   - Graphique
 ---
 
-![image](/img/Courbe-effetpharmaco.webp)
+![image](/img/Courbeeffetpharmaco.webp)
 
-![image](/img/Courbe-effetpharmaco1.webp)
+![image](/img/Courbeeffetpharmaco1.webp)
 
 ### Description :
 
